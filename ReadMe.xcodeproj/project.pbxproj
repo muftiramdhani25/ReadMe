@@ -11,6 +11,10 @@
 		64FB91BB2705CF7C0073C774 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB91BA2705CF7C0073C774 /* ContentView.swift */; };
 		64FB91BD2705CF800073C774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64FB91BC2705CF800073C774 /* Assets.xcassets */; };
 		64FB91C02705CF800073C774 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64FB91BF2705CF800073C774 /* Preview Assets.xcassets */; };
+		64FB91C92705DF610073C774 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB91C82705DF610073C774 /* Book.swift */; };
+		64FB91CD2705E0700073C774 /* BookViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB91CC2705E0700073C774 /* BookViews.swift */; };
+		64FB91D12705E8E00073C774 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB91D02705E8E00073C774 /* Library.swift */; };
+		64FB91D42705EA820073C774 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB91D32705EA820073C774 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		64FB91BC2705CF800073C774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64FB91BF2705CF800073C774 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64FB91C12705CF800073C774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64FB91C82705DF610073C774 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		64FB91CC2705E0700073C774 /* BookViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViews.swift; sourceTree = "<group>"; };
+		64FB91D02705E8E00073C774 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		64FB91D32705EA820073C774 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				64FB91B82705CF7C0073C774 /* ReadMeApp.swift */,
-				64FB91BA2705CF7C0073C774 /* ContentView.swift */,
+				64FB91CB2705E05C0073C774 /* Views */,
+				64FB91C82705DF610073C774 /* Book.swift */,
+				64FB91D02705E8E00073C774 /* Library.swift */,
 				64FB91BC2705CF800073C774 /* Assets.xcassets */,
 				64FB91C12705CF800073C774 /* Info.plist */,
 				64FB91BE2705CF800073C774 /* Preview Content */,
@@ -67,6 +77,16 @@
 				64FB91BF2705CF800073C774 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64FB91CB2705E05C0073C774 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64FB91BA2705CF7C0073C774 /* ContentView.swift */,
+				64FB91CC2705E0700073C774 /* BookViews.swift */,
+				64FB91D32705EA820073C774 /* DetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +159,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				64FB91BB2705CF7C0073C774 /* ContentView.swift in Sources */,
+				64FB91D42705EA820073C774 /* DetailView.swift in Sources */,
 				64FB91B92705CF7C0073C774 /* ReadMeApp.swift in Sources */,
+				64FB91D12705E8E00073C774 /* Library.swift in Sources */,
+				64FB91C92705DF610073C774 /* Book.swift in Sources */,
+				64FB91CD2705E0700073C774 /* BookViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

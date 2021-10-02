@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64F90EB627076849003F8990 /* PHPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F90EB527076849003F8990 /* PHPickerViewController.swift */; };
 		64FB91B92705CF7C0073C774 /* ReadMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB91B82705CF7C0073C774 /* ReadMeApp.swift */; };
 		64FB91BB2705CF7C0073C774 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB91BA2705CF7C0073C774 /* ContentView.swift */; };
 		64FB91BD2705CF800073C774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64FB91BC2705CF800073C774 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64F90EB527076849003F8990 /* PHPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPickerViewController.swift; sourceTree = "<group>"; };
 		64FB91B52705CF7C0073C774 /* ReadMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64FB91B82705CF7C0073C774 /* ReadMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadMeApp.swift; sourceTree = "<group>"; };
 		64FB91BA2705CF7C0073C774 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				64FB91BA2705CF7C0073C774 /* ContentView.swift */,
 				64FB91CC2705E0700073C774 /* BookViews.swift */,
 				64FB91D32705EA820073C774 /* DetailView.swift */,
+				64F90EB527076849003F8990 /* PHPickerViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				64FB91B92705CF7C0073C774 /* ReadMeApp.swift in Sources */,
 				64FB91D12705E8E00073C774 /* Library.swift in Sources */,
 				64FB91C92705DF610073C774 /* Book.swift in Sources */,
+				64F90EB627076849003F8990 /* PHPickerViewController.swift in Sources */,
 				64FB91CD2705E0700073C774 /* BookViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

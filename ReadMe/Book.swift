@@ -7,10 +7,12 @@
 
 import Combine
 
-class Book: ObservableObject {
+// ctrl + shift + arrow bottom to select multiple and escape for exit
+
+class Book: Codable, ObservableObject {
  
-  let title: String
-  let author: String
+  @Published var title: String
+  @Published var author: String
   @Published var microReview: String
   @Published var readMe: Bool
   

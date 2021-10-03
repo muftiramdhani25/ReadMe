@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		645F217C2708571000D5C4CE /* NewBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645F217B2708571000D5C4CE /* NewBookView.swift */; };
+		645F217F2708596C00D5C4CE /* ReviewAndImageStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645F217E2708596C00D5C4CE /* ReviewAndImageStack.swift */; };
 		64F90EB627076849003F8990 /* PHPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F90EB527076849003F8990 /* PHPickerViewController.swift */; };
 		64FB91B92705CF7C0073C774 /* ReadMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB91B82705CF7C0073C774 /* ReadMeApp.swift */; };
 		64FB91BB2705CF7C0073C774 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB91BA2705CF7C0073C774 /* ContentView.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		645F217B2708571000D5C4CE /* NewBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBookView.swift; sourceTree = "<group>"; };
+		645F217E2708596C00D5C4CE /* ReviewAndImageStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewAndImageStack.swift; sourceTree = "<group>"; };
 		64F90EB527076849003F8990 /* PHPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPickerViewController.swift; sourceTree = "<group>"; };
 		64FB91B52705CF7C0073C774 /* ReadMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64FB91B82705CF7C0073C774 /* ReadMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadMeApp.swift; sourceTree = "<group>"; };
@@ -86,7 +90,9 @@
 			children = (
 				64FB91BA2705CF7C0073C774 /* ContentView.swift */,
 				64FB91CC2705E0700073C774 /* BookViews.swift */,
+				645F217E2708596C00D5C4CE /* ReviewAndImageStack.swift */,
 				64FB91D32705EA820073C774 /* DetailView.swift */,
+				645F217B2708571000D5C4CE /* NewBookView.swift */,
 				64F90EB527076849003F8990 /* PHPickerViewController.swift */,
 			);
 			path = Views;
@@ -165,8 +171,10 @@
 				64FB91D42705EA820073C774 /* DetailView.swift in Sources */,
 				64FB91B92705CF7C0073C774 /* ReadMeApp.swift in Sources */,
 				64FB91D12705E8E00073C774 /* Library.swift in Sources */,
+				645F217C2708571000D5C4CE /* NewBookView.swift in Sources */,
 				64FB91C92705DF610073C774 /* Book.swift in Sources */,
 				64F90EB627076849003F8990 /* PHPickerViewController.swift in Sources */,
+				645F217F2708596C00D5C4CE /* ReviewAndImageStack.swift in Sources */,
 				64FB91CD2705E0700073C774 /* BookViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
